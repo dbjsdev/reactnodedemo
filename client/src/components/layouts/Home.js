@@ -1,9 +1,16 @@
-import React, { Component} from 'react'
+import React, { Component} from 'react';
+import News from '../containers/News';
 
 class Home extends Component {
 	render(){
 		return (
-			<div>Hello</div>
+			<div>
+				<div>Welcome to Owl News</div>
+
+				<div>
+					<News />
+				</div>
+			</div>
 		)
 	}
 }
